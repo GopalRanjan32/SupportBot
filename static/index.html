@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>SupportBot - NoteNest Support</title>
+
+    <link
+        rel="stylesheet"
+        href="/static/style.css"
+    >
+</head>
+
+<body>
+
+    <div class="app-container">
+
+        <header class="header">
+            <div>
+                <h1>SupportBot</h1>
+                <p>NoteNest Customer Support Assistant</p>
+            </div>
+
+            <div class="status">
+                <span class="status-dot"></span>
+                Online
+            </div>
+        </header>
+
+
+        <main
+            id="chat"
+            class="chat-container"
+        >
+
+            <div class="message bot-message">
+                <div class="message-label">
+                    SupportBot
+                </div>
+
+                <div class="message-content">
+                    Hi! Ask me anything about NoteNest billing,
+                    login, sync, exports, sharing, security,
+                    storage, or account settings.
+                </div>
+            </div>
+
+        </main>
+
+
+        <div class="input-area">
+
+            <input
+                id="questionInput"
+                type="text"
+                maxlength="500"
+                placeholder="Ask a question about NoteNest..."
+                autocomplete="off"
+            >
+
+            <button
+                id="sendButton"
+                type="button"
+            >
+                Send
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <script src="/static/script.js"></script>
+
+</body>
+</html>

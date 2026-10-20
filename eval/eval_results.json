@@ -1,0 +1,605 @@
+{
+  "summary": {
+    "total_questions": 25,
+    "answer_accuracy": 100.0,
+    "citation_accuracy": 100.0,
+    "refusal_accuracy": 100.0
+  },
+  "results": [
+    {
+      "id": 1,
+      "question": "What happens if my Pro payment fails?",
+      "expected_refusal": false,
+      "actual_refusal": false,
+      "answer_correct": true,
+      "citation_correct": true,
+      "refusal_correct": true,
+      "answer": "If a Pro subscription payment fails, NoteNest retries the payment for 7 days. During this period, you can continue using Pro features. If the payment is still unsuccessful after 7 days, your account is moved to the Free Plan.",
+      "citations": [
+        {
+          "source": "billing.md",
+          "chunk_number": 4,
+          "distance": 0.2803906798362732
+        },
+        {
+          "source": "cancellation.md",
+          "chunk_number": 1,
+          "distance": 0.5582717657089233
+        },
+        {
+          "source": "billing.md",
+          "chunk_number": 1,
+          "distance": 0.5918454527854919
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "How much does the Pro Plan cost per month?",
+      "expected_refusal": false,
+      "actual_refusal": false,
+      "answer_correct": true,
+      "citation_correct": true,
+      "refusal_correct": true,
+      "answer": "The Pro Plan costs $8 per month.",
+      "citations": [
+        {
+          "source": "billing.md",
+          "chunk_number": 2,
+          "distance": 0.41613519191741943
+        },
+        {
+          "source": "storage.md",
+          "chunk_number": 1,
+          "distance": 0.5927492380142212
+        },
+        {
+          "source": "billing.md",
+          "chunk_number": 4,
+          "distance": 0.6143239736557007
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "How much does the Pro Plan cost per year?",
+      "expected_refusal": false,
+      "actual_refusal": false,
+      "answer_correct": true,
+      "citation_correct": true,
+      "refusal_correct": true,
+      "answer": "The Pro Plan costs $80 per year.",
+      "citations": [
+        {
+          "source": "billing.md",
+          "chunk_number": 2,
+          "distance": 0.41402238607406616
+        },
+        {
+          "source": "storage.md",
+          "chunk_number": 1,
+          "distance": 0.6017813682556152
+        },
+        {
+          "source": "billing.md",
+          "chunk_number": 4,
+          "distance": 0.6403900980949402
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Which payment cards does NoteNest accept?",
+      "expected_refusal": false,
+      "actual_refusal": false,
+      "answer_correct": true,
+      "citation_correct": true,
+      "refusal_correct": true,
+      "answer": "NoteNest accepts Visa, Mastercard, and American Express cards.",
+      "citations": [
+        {
+          "source": "billing.md",
+          "chunk_number": 3,
+          "distance": 0.19970104098320007
+        },
+        {
+          "source": "billing.md",
+          "chunk_number": 2,
+          "distance": 0.5040202140808105
+        },
+        {
+          "source": "billing.md",
+          "chunk_number": 4,
+          "distance": 0.5332449078559875
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "How do I cancel my Pro subscription?",
+      "expected_refusal": false,
+      "actual_refusal": false,
+      "answer_correct": true,
+      "citation_correct": true,
+      "refusal_correct": true,
+      "answer": "To cancel your NoteNest Pro subscription, follow these steps:\n\n1. Open Settings.\n2. Select Billing.\n3. Click \"Manage Subscription\".\n4. Select \"Cancel Subscription\".",
+      "citations": [
+        {
+          "source": "cancellation.md",
+          "chunk_number": 1,
+          "distance": 0.3343431353569031
+        },
+        {
+          "source": "billing.md",
+          "chunk_number": 4,
+          "distance": 0.5319252014160156
+        },
+        {
+          "source": "delete_account.md",
+          "chunk_number": 1,
+          "distance": 0.6266676783561707
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "Do I lose Pro features immediately after cancellation?",
+      "expected_refusal": false,
+      "actual_refusal": false,
+      "answer_correct": true,
+      "citation_correct": true,
+      "refusal_correct": true,
+      "answer": "No, Pro features remain available until the end of the current billing period.",
+      "citations": [
+        {
+          "source": "cancellation.md",
+          "chunk_number": 1,
+          "distance": 0.35700294375419617
+        },
+        {
+          "source": "billing.md",
+          "chunk_number": 4,
+          "distance": 0.4715341329574585
+        },
+        {
+          "source": "delete_account.md",
+          "chunk_number": 1,
+          "distance": 0.6226707696914673
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "How do I reset my password?",
+      "expected_refusal": false,
+      "actual_refusal": false,
+      "answer_correct": true,
+      "citation_correct": true,
+      "refusal_correct": true,
+      "answer": "To reset your password, click \"Forgot Password\" on the login page. NoteNest will then send a password reset link to your registered email address.",
+      "citations": [
+        {
+          "source": "login.md",
+          "chunk_number": 3,
+          "distance": 0.4270152747631073
+        },
+        {
+          "source": "login.md",
+          "chunk_number": 1,
+          "distance": 0.5261389017105103
+        },
+        {
+          "source": "login.md",
+          "chunk_number": 2,
+          "distance": 0.6552873849868774
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "How long is the password reset link valid?",
+      "expected_refusal": false,
+      "actual_refusal": false,
+      "answer_correct": true,
+      "citation_correct": true,
+      "refusal_correct": true,
+      "answer": "The password reset link expires after 30 minutes.",
+      "citations": [
+        {
+          "source": "login.md",
+          "chunk_number": 3,
+          "distance": 0.40889638662338257
+        },
+        {
+          "source": "login.md",
+          "chunk_number": 4,
+          "distance": 0.6300466656684875
+        },
+        {
+          "source": "login.md",
+          "chunk_number": 1,
+          "distance": 0.652271032333374
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "What happens after five failed login attempts?",
+      "expected_refusal": false,
+      "actual_refusal": false,
+      "answer_correct": true,
+      "citation_correct": true,
+      "refusal_correct": true,
+      "answer": "After 5 unsuccessful login attempts, the account is temporarily locked for 15 minutes.",
+      "citations": [
+        {
+          "source": "login.md",
+          "chunk_number": 4,
+          "distance": 0.2767857611179352
+        },
+        {
+          "source": "login.md",
+          "chunk_number": 1,
+          "distance": 0.5510892868041992
+        },
+        {
+          "source": "login.md",
+          "chunk_number": 3,
+          "distance": 0.6371801495552063
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "How does NoteNest sync notes across devices?",
+      "expected_refusal": false,
+      "actual_refusal": false,
+      "answer_correct": true,
+      "citation_correct": true,
+      "refusal_correct": true,
+      "answer": "NoteNest automatically synchronizes notes across signed-in devices when connected to the internet. Changes made while offline are stored locally and uploaded once the device reconnects, with synchronization typically beginning within 10 seconds of the connection being restored. If a note is edited on two devices while both are offline, NoteNest keeps the most recently saved version.",
+      "citations": [
+        {
+          "source": "sync.md",
+          "chunk_number": 1,
+          "distance": 0.2992202043533325
+        },
+        {
+          "source": "security.md",
+          "chunk_number": 1,
+          "distance": 0.4040984511375427
+        },
+        {
+          "source": "billing.md",
+          "chunk_number": 2,
+          "distance": 0.5029833912849426
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "What happens to offline changes when internet access returns?",
+      "expected_refusal": false,
+      "actual_refusal": false,
+      "answer_correct": true,
+      "citation_correct": true,
+      "refusal_correct": true,
+      "answer": "Changes made while offline are stored locally and uploaded when the device reconnects to the internet. Synchronization normally begins within 10 seconds after the internet connection is restored.",
+      "citations": [
+        {
+          "source": "sync.md",
+          "chunk_number": 1,
+          "distance": 0.38717561960220337
+        },
+        {
+          "source": "security.md",
+          "chunk_number": 1,
+          "distance": 0.7078238725662231
+        },
+        {
+          "source": "billing.md",
+          "chunk_number": 4,
+          "distance": 0.7161574959754944
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "Which formats can I export notes in?",
+      "expected_refusal": false,
+      "actual_refusal": false,
+      "answer_correct": true,
+      "citation_correct": true,
+      "refusal_correct": true,
+      "answer": "Markdown, PDF, and Plain text.",
+      "citations": [
+        {
+          "source": "export.md",
+          "chunk_number": 1,
+          "distance": 0.28459683060646057
+        },
+        {
+          "source": "storage.md",
+          "chunk_number": 1,
+          "distance": 0.6181623935699463
+        },
+        {
+          "source": "security.md",
+          "chunk_number": 1,
+          "distance": 0.6266086101531982
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "Can I export all my notes as a ZIP file?",
+      "expected_refusal": false,
+      "actual_refusal": false,
+      "answer_correct": true,
+      "citation_correct": true,
+      "refusal_correct": true,
+      "answer": "Yes, Pro Plan users can export all notes together as a ZIP archive.",
+      "citations": [
+        {
+          "source": "export.md",
+          "chunk_number": 1,
+          "distance": 0.4008761942386627
+        },
+        {
+          "source": "security.md",
+          "chunk_number": 1,
+          "distance": 0.5990309715270996
+        },
+        {
+          "source": "delete_account.md",
+          "chunk_number": 1,
+          "distance": 0.6425768733024597
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "What is the difference between Viewer and Editor access?",
+      "expected_refusal": false,
+      "actual_refusal": false,
+      "answer_correct": true,
+      "citation_correct": true,
+      "refusal_correct": true,
+      "answer": "Viewers can read the shared note but cannot modify it, whereas Editors can both read and edit the shared note.",
+      "citations": [
+        {
+          "source": "sharing.md",
+          "chunk_number": 1,
+          "distance": 0.476227730512619
+        },
+        {
+          "source": "login.md",
+          "chunk_number": 1,
+          "distance": 0.6703765392303467
+        },
+        {
+          "source": "storage.md",
+          "chunk_number": 1,
+          "distance": 0.708125114440918
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "Can a Viewer edit a shared note?",
+      "expected_refusal": false,
+      "actual_refusal": false,
+      "answer_correct": true,
+      "citation_correct": true,
+      "refusal_correct": true,
+      "answer": "No, Viewers can read the shared note but cannot modify it.",
+      "citations": [
+        {
+          "source": "sharing.md",
+          "chunk_number": 1,
+          "distance": 0.3074808120727539
+        },
+        {
+          "source": "sync.md",
+          "chunk_number": 1,
+          "distance": 0.6148240566253662
+        },
+        {
+          "source": "security.md",
+          "chunk_number": 1,
+          "distance": 0.6269710063934326
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "Is NoteNest data encrypted at rest?",
+      "expected_refusal": false,
+      "actual_refusal": false,
+      "answer_correct": true,
+      "citation_correct": true,
+      "refusal_correct": true,
+      "answer": "Yes, stored note data is encrypted at rest.",
+      "citations": [
+        {
+          "source": "security.md",
+          "chunk_number": 1,
+          "distance": 0.29134854674339294
+        },
+        {
+          "source": "storage.md",
+          "chunk_number": 1,
+          "distance": 0.5218089818954468
+        },
+        {
+          "source": "billing.md",
+          "chunk_number": 2,
+          "distance": 0.5362833142280579
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "How can I sign out of all other active sessions?",
+      "expected_refusal": false,
+      "actual_refusal": false,
+      "answer_correct": true,
+      "citation_correct": true,
+      "refusal_correct": true,
+      "answer": "You can sign out of all other active sessions from the Security settings.",
+      "citations": [
+        {
+          "source": "security.md",
+          "chunk_number": 1,
+          "distance": 0.5327125787734985
+        },
+        {
+          "source": "login.md",
+          "chunk_number": 1,
+          "distance": 0.6502065062522888
+        },
+        {
+          "source": "delete_account.md",
+          "chunk_number": 1,
+          "distance": 0.7047920227050781
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "How long is the account deletion recovery period?",
+      "expected_refusal": false,
+      "actual_refusal": false,
+      "answer_correct": true,
+      "citation_correct": true,
+      "refusal_correct": true,
+      "answer": "The account deletion recovery period is 7 days.",
+      "citations": [
+        {
+          "source": "delete_account.md",
+          "chunk_number": 1,
+          "distance": 0.46581724286079407
+        },
+        {
+          "source": "login.md",
+          "chunk_number": 4,
+          "distance": 0.6492412090301514
+        },
+        {
+          "source": "login.md",
+          "chunk_number": 1,
+          "distance": 0.6590735912322998
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "How much attachment storage does the Pro Plan include?",
+      "expected_refusal": false,
+      "actual_refusal": false,
+      "answer_correct": true,
+      "citation_correct": true,
+      "refusal_correct": true,
+      "answer": "The Pro Plan includes 10 GB of attachment storage.",
+      "citations": [
+        {
+          "source": "storage.md",
+          "chunk_number": 1,
+          "distance": 0.3670811951160431
+        },
+        {
+          "source": "billing.md",
+          "chunk_number": 2,
+          "distance": 0.5642905831336975
+        },
+        {
+          "source": "billing.md",
+          "chunk_number": 4,
+          "distance": 0.658608078956604
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "Can I search notes using tags?",
+      "expected_refusal": false,
+      "actual_refusal": false,
+      "answer_correct": true,
+      "citation_correct": true,
+      "refusal_correct": true,
+      "answer": "Yes, you can search notes using tags.",
+      "citations": [
+        {
+          "source": "search.md",
+          "chunk_number": 1,
+          "distance": 0.36090174317359924
+        },
+        {
+          "source": "sharing.md",
+          "chunk_number": 1,
+          "distance": 0.6308566331863403
+        },
+        {
+          "source": "security.md",
+          "chunk_number": 1,
+          "distance": 0.6443870663642883
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "question": "What is the weather in Delhi today?",
+      "expected_refusal": true,
+      "actual_refusal": true,
+      "answer_correct": true,
+      "citation_correct": true,
+      "refusal_correct": true,
+      "answer": "I couldn't find this in the documentation.",
+      "citations": []
+    },
+    {
+      "id": 22,
+      "question": "Does NoteNest support cryptocurrency trading?",
+      "expected_refusal": true,
+      "actual_refusal": true,
+      "answer_correct": true,
+      "citation_correct": true,
+      "refusal_correct": true,
+      "answer": "I couldn't find this in the documentation.",
+      "citations": []
+    },
+    {
+      "id": 23,
+      "question": "Who won the last FIFA World Cup?",
+      "expected_refusal": true,
+      "actual_refusal": true,
+      "answer_correct": true,
+      "citation_correct": true,
+      "refusal_correct": true,
+      "answer": "I couldn't find this in the documentation.",
+      "citations": []
+    },
+    {
+      "id": 24,
+      "question": "Can NoteNest book flight tickets for me?",
+      "expected_refusal": true,
+      "actual_refusal": true,
+      "answer_correct": true,
+      "citation_correct": true,
+      "refusal_correct": true,
+      "answer": "I couldn't find this in the documentation.",
+      "citations": []
+    },
+    {
+      "id": 25,
+      "question": "What is Python used for?",
+      "expected_refusal": true,
+      "actual_refusal": true,
+      "answer_correct": true,
+      "citation_correct": true,
+      "refusal_correct": true,
+      "answer": "I couldn't find this in the documentation.",
+      "citations": []
+    }
+  ]
+}

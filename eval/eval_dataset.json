@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "question": "What happens if my Pro payment fails?",
+    "expected_source": "billing.md",
+    "expected_refusal": false
+  },
+  {
+    "id": 2,
+    "question": "How much does the Pro Plan cost per month?",
+    "expected_source": "billing.md",
+    "expected_refusal": false
+  },
+  {
+    "id": 3,
+    "question": "How much does the Pro Plan cost per year?",
+    "expected_source": "billing.md",
+    "expected_refusal": false
+  },
+  {
+    "id": 4,
+    "question": "Which payment cards does NoteNest accept?",
+    "expected_source": "billing.md",
+    "expected_refusal": false
+  },
+  {
+    "id": 5,
+    "question": "How do I cancel my Pro subscription?",
+    "expected_source": "cancellation.md",
+    "expected_refusal": false
+  },
+  {
+    "id": 6,
+    "question": "Do I lose Pro features immediately after cancellation?",
+    "expected_source": "cancellation.md",
+    "expected_refusal": false
+  },
+  {
+    "id": 7,
+    "question": "How do I reset my password?",
+    "expected_source": "login.md",
+    "expected_refusal": false
+  },
+  {
+    "id": 8,
+    "question": "How long is the password reset link valid?",
+    "expected_source": "login.md",
+    "expected_refusal": false
+  },
+  {
+    "id": 9,
+    "question": "What happens after five failed login attempts?",
+    "expected_source": "login.md",
+    "expected_refusal": false
+  },
+  {
+    "id": 10,
+    "question": "How does NoteNest sync notes across devices?",
+    "expected_source": "sync.md",
+    "expected_refusal": false
+  },
+  {
+    "id": 11,
+    "question": "What happens to offline changes when internet access returns?",
+    "expected_source": "sync.md",
+    "expected_refusal": false
+  },
+  {
+    "id": 12,
+    "question": "Which formats can I export notes in?",
+    "expected_source": "export.md",
+    "expected_refusal": false
+  },
+  {
+    "id": 13,
+    "question": "Can I export all my notes as a ZIP file?",
+    "expected_source": "export.md",
+    "expected_refusal": false
+  },
+  {
+    "id": 14,
+    "question": "What is the difference between Viewer and Editor access?",
+    "expected_source": "sharing.md",
+    "expected_refusal": false
+  },
+  {
+    "id": 15,
+    "question": "Can a Viewer edit a shared note?",
+    "expected_source": "sharing.md",
+    "expected_refusal": false
+  },
+  {
+    "id": 16,
+    "question": "Is NoteNest data encrypted at rest?",
+    "expected_source": "security.md",
+    "expected_refusal": false
+  },
+  {
+    "id": 17,
+    "question": "How can I sign out of all other active sessions?",
+    "expected_source": "security.md",
+    "expected_refusal": false
+  },
+  {
+    "id": 18,
+    "question": "How long is the account deletion recovery period?",
+    "expected_source": "delete_account.md",
+    "expected_refusal": false
+  },
+  {
+    "id": 19,
+    "question": "How much attachment storage does the Pro Plan include?",
+    "expected_source": "storage.md",
+    "expected_refusal": false
+  },
+  {
+    "id": 20,
+    "question": "Can I search notes using tags?",
+    "expected_source": "search.md",
+    "expected_refusal": false
+  },
+  {
+    "id": 21,
+    "question": "What is the weather in Delhi today?",
+    "expected_source": null,
+    "expected_refusal": true
+  },
+  {
+    "id": 22,
+    "question": "Does NoteNest support cryptocurrency trading?",
+    "expected_source": null,
+    "expected_refusal": true
+  },
+  {
+    "id": 23,
+    "question": "Who won the last FIFA World Cup?",
+    "expected_source": null,
+    "expected_refusal": true
+  },
+  {
+    "id": 24,
+    "question": "Can NoteNest book flight tickets for me?",
+    "expected_source": null,
+    "expected_refusal": true
+  },
+  {
+    "id": 25,
+    "question": "What is Python used for?",
+    "expected_source": null,
+    "expected_refusal": true
+  }
+]
